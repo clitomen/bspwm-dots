@@ -1,0 +1,58 @@
+[global]
+
+
+# Position
+    monitor = 1
+    follow = keyboard
+    origin = top-center
+
+# Window 
+    width = 400
+    frame_width = 0
+#    corner_radius = 0
+    font = Lato 12
+
+    separator_height = 3
+    padding = 8
+    horizontal_padding = 10
+    separator_color = "#1d2021"
+
+    markup = full
+    format = "<b>%s</b> %b"
+    sort = yes
+    alignment = center
+
+    vertical_alignment = center
+    ellipsize = middle
+
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = false
+
+# Icons
+    enable_recursive_icon_lookup = true
+    icon_theme = Gruvbox-Dark
+    icon_path = /usr/share/icons/Gruvbox-Dark
+    icon_position = left
+    min_icon_size = 16
+    max_icon_size = 16
+#    icon_corner_radius = 0
+    text_icon_padding = 5
+
+# Colors
+
+[urgency_low]
+    background = "#689d6a"
+    foreground = "#ebdbb2"
+    timeout = 5
+
+[urgency_normal]
+    background = "#98971a"
+    foreground = "#ebdbb2"
+    timeout = 10
+    
+[urgency_critical]
+    background = "#cc241d"
+    foreground = "#ebdbb2"
+    frame_color = "#cc241d"
+    timeout = 5   
